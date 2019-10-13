@@ -44,6 +44,25 @@ public class Convert extends PrintConsole {
 		return d;
 	}
 	
+	static boolean flag;
+	public static boolean isDigit(char ch) {
+		
+		flag = Character.isDigit(ch);
+		if(flag == true) {
+			return flag;
+		}else {
+			return false;
+		}
+	}
+	
+	public static boolean isAlpha(char ch) {
+		flag = Character.isAlphabetic(ch);
+		if(flag ==true) {
+			return flag;
+		}else {
+			return false;
+		}
+	}
 	
 	
 

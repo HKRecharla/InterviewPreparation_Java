@@ -25,6 +25,10 @@ public class StringCommon {
 		}
 	}
 
+	public static char getChar(String str,int i) {
+		char ch = str.charAt(i);
+		return ch;
+	}
 	
 	public static String asString(char ch) {
 		return String.valueOf(ch);

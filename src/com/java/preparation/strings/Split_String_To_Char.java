@@ -10,7 +10,6 @@ import com.java.preparation.common.ScannerPrint;
 
 public class Split_String_To_Char {
 	
-	
 	public static void main(String[] args) {
 		String str = ScannerPrint.scanString();
 		StringCommon.getChar(str);
